@@ -1,0 +1,66 @@
+.check-in-block{
+	width: 1280px;
+	margin: 0 auto;
+	background: #fff;	
+}
+.check-in-block__content{
+	width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+
+}
+.check-in-block__form{
+	color: #fff;
+	font-family: $nav-font;
+	display: inline-block;
+	padding: 16px 16px 18px 24px;
+	border-radius: 4px;
+	margin-top: 24px;
+	margin-bottom: 35px;
+}
+
+.check-in-block__form--login{
+	background: #e67624;
+	 
+}
+.check-in-block__title{
+	margin-bottom: 20px;
+	font-size: 20px; 
+
+}
+
+.check-in-block__input{
+	margin-right: 12px;
+	padding: 6px 12px;
+	color: #444444;
+}
+.check-in-block__input--user-name{
+	width: 130px;
+}
+.check-in-block__input--passsword{
+	width: 125px;
+}
+.check-in-block__submit-button{
+	padding: 6px 12px 6px 12px;
+	color: #fff;
+	margin-top: -22px;
+	cursor: pointer;
+}
+.check-in-block__submit-button--login{
+	background: #444444;
+	
+}
+
+.check-in-block__form--subscribe{
+	background: #01d4f3;
+	 
+}
+.check-in-block__submit-button--email{	
+	background: #029bb1;
+	
+}
+.check-in-block__input--email{
+	width: 245px;
+	margin-right: 50px;
+}

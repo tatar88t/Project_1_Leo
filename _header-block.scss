@@ -1,0 +1,78 @@
+$header-block-text-color : #cacbcc;
+$nav-font : 'Thasadith', sans-serif;
+$header-block-button-color : #175b3b;
+$header-block-button-border: 4px solid #181d1a;
+
+body{
+	background: #282828;
+}
+.header-block{
+	width: 1280px;
+	margin: 0 auto;
+	background: url('./img/bgHead.png') no-repeat center top / cover;
+}
+.header-block__content{
+	width: 1024px;
+	height: 520px;
+	margin: 0 auto;
+}
+
+.header-block__site-name{
+	font-family: 'Cambria', sans-serif;
+	font-style: italic;
+	font-size: 108pt;
+	color: $header-block-text-color;
+	letter-spacing: -5pt;
+	margin-left: 96px;
+	display: inline-block;
+}
+.header-block__nav{
+	margin-top: 56px;
+	float: right;
+}
+.header-block__nav-bar-item{
+	display: inline-block;
+	margin-right: 50px;
+}
+.header-block__nav-bar-item-link{
+	text-decoration: none;
+	color: $header-block-text-color;
+	font-family: $nav-font;
+	font-size: 18pt;
+
+}
+.header-block__main-icon{
+	margin-left: 120px;
+	margin-top: 65px;
+	position: relative;
+}
+.header-block__introduction-area{
+	display: inline-block;
+	position: relative;
+	width: 350px;
+	top: -115px;
+	left: 75px;
+
+}
+.header-block__introduction-title{
+	font-size: 50pt;
+	color: #fff;
+	font-family: "hind", sans-serif;
+	font-weight: bold;
+	line-height: 80%;
+}
+.header-block__introduction-title-small{
+	font-weight: normal;
+	font-size: 35pt;
+	font-family: $nav-font;
+}
+.header-block__link-button{
+	font-family: $nav-font;
+	font-size: 18pt;
+	background: $header-block-button-color;
+	cursor: pointer;
+	padding: 4px 22px;
+	border: $header-block-button-border;
+	color: #fff;
+	margin-top: 34px;
+}

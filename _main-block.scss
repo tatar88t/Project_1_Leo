@@ -1,0 +1,113 @@
+.main-block{
+	width: 1280px;
+	margin: 0 auto;
+	background: #fff;
+	border-bottom: 1px solid #dedede;
+}
+.main-block__content{
+	width: 1024px;
+	/*height: 1520px;*/
+	margin: 0 auto;
+	
+}
+.main-block__tabbed-area{
+	padding-top: 65px;
+	
+
+}
+.main-block__tabs{
+	display: flex;
+}
+.main-block__tab-link{
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 144px;
+	font-family: $nav-font;
+	font-size: 20pt;
+	color: #5c5b5b;
+	padding: 25px 50px;
+	text-decoration: none;
+	&:hover{
+	font-weight: bold;
+}
+}
+
+.main-block__tab-icon{
+	/*position: relative;*/
+	/*margin: 0 auto;*/
+
+}
+.main-block__tab-link--active{
+	border: 1px solid #dedede;
+	border-bottom: 1px solid #fff;
+	/*box-shadow: 2px 0 2px 2px #ebebeb;*/
+}
+
+
+.main-block__tab-content{
+	border: 1px solid #dedede;
+	margin-top: -1px;
+}
+#content_1, #content_3, #content_4{
+	display: none;
+	/*border: 1px solid #dedede;
+	margin-top: -1px;*/
+}
+.main-block__ipad-pic{
+	display: inline-block;
+	margin: 58px 180px;
+	text-align: center;
+}
+.main-block__tab-content--p2--text-block{
+	width: 896px;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+.main-block__inside-tab-title{
+	font-family: $nav-font;
+	font-size: 24pt;
+	color: #5c5b5b;
+	margin-bottom: 30px;
+}
+.main-block__inside-tab-text{
+	font-family: $nav-font;
+	font-size: 14pt;
+	color: #5c5b5b;
+	margin-bottom: 30px;
+}
+
+.main-block__second-part{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 75px;
+}
+.main-block__screenshot-pic{
+	margin-left: -16px;
+	margin-top: 28px;
+}
+.main-block__second-part-text-block{
+	margin-top: 55px;
+	margin-left: 55px;
+
+}
+.main-block__ul-benefits-title{
+	font-family: $nav-font;
+	color: #4f4f4f;
+	font-size: 20pt;
+	margin-bottom: 30px;
+
+
+}
+.main-block__item-benefits{
+	list-style-image: url("img/checkmark.png");
+	font-family: $nav-font;
+	color: #5c5b5b;
+	font-size: 12pt;
+	margin-bottom: 22px;
+
+}
+.ff{
+	background: #fff;
+}
