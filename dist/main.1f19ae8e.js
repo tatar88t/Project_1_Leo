@@ -176,7 +176,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./img\\bgHead.png":[["bgHead.24191d8c.png","img/bgHead.png"],"img/bgHead.png"],"./img\\checkmark.png":[["checkmark.fe812768.png","img/checkmark.png"],"img/checkmark.png"],"_css_loader":"C:/Users/user/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
+},{"./img\\bgHead.png":[["bgHead.24191d8c.png","img/bgHead.png"],"img/bgHead.png"],"./img\\checkmark.png":[["checkmark.fe812768.png","img/checkmark.png"],"img/checkmark.png"],"./img\\bgFooter.png":[["bgFooter.4efe42a5.png","img/bgFooter.png"],"img/bgFooter.png"],"_css_loader":"C:/Users/user/AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("/style.scss");
@@ -207,7 +207,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55826" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52612" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

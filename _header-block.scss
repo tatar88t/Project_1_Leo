@@ -2,6 +2,7 @@ $header-block-text-color : #cacbcc;
 $nav-font : 'Thasadith', sans-serif;
 $header-block-button-color : #175b3b;
 $header-block-button-border: 4px solid #181d1a;
+$site-name-font: 'Cambria', sans-serif;
 
 body{
 	background: #282828;
@@ -18,7 +19,7 @@ body{
 }
 
 .header-block__site-name{
-	font-family: 'Cambria', sans-serif;
+	font-family: $site-name-font;
 	font-style: italic;
 	font-size: 108pt;
 	color: $header-block-text-color;
